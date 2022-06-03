@@ -46,5 +46,4 @@ Thi is our features from StuDu App
 [Github - Puspa]: https://github.com/sahirrrr
 [Github - Aji]: https://github.com/itsannazzle
 [Github - Rofiq]: https://github.com/vrider46
-[Github - Aldy]: https://github.com/vrider46
 [Github - Alfian]: https://github.com/sekarlm
