@@ -2,10 +2,11 @@ const express = require("express");
 const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
-const db = require("./utils/database");
+const http = require("http");
 const router = require("./routes/router");
+const host = require("./utils/host");
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT !== "production" ? 3000 : 8080;
 dotenv.config();
 const app = express();
 
@@ -17,4 +18,5 @@ app.use(express.json());
 
 app.use("/studu", router);
 
-app.listen(port, () => console.log(`Server running at port ${port}`));
+const httpServer = http.createServer(app);
+httpServer.listen(port, () => console.log(`Server running in ${hostname} on port ${port}`));
