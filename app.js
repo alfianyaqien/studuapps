@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const http = require("http");
 const router = require("./routes/router");
-const host = require("./utils/host");
+const hostname = require("./utils/host");
 
 const port = process.env.PORT !== "production" ? 3000 : 8080;
 dotenv.config();
