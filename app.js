@@ -6,7 +6,7 @@ const http = require("http");
 const router = require("./routes/router");
 const hostname = require("./utils/host");
 
-const port = process.env.PORT !== "production" ? 3000 : 8080;
+const port = process.env.PORT;
 dotenv.config();
 const app = express();
 
