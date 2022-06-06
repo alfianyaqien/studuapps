@@ -23,7 +23,7 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="328dp"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
@@ -47,7 +47,7 @@
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="328dp"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
@@ -82,7 +82,7 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="328dp"
+        android:layout_width="340dp"
         android:layout_height="27dp"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"

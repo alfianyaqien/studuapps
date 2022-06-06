@@ -24,4 +24,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_prediksi_screnn">PrediksiScrenn</string>
+    <string name="title_activity_hasil_normal">HasilNormalActivity</string>
+    <string name="normal">Tetap pantau tumbuh kembang-nya.</string>
+    <string name="ada_artikel">Adapun artikel yang bisa digunakan untuk penanganan awal dalam mencegah dan penanganan stunting yang telah disediakan:</string>
+    <string name="artikel_stunting">Adapun saran artikel yang bisa digunakan untuk penanganan awal dalam mencegah dan penanganan stunting yang telah disediakan:</string>
 </resources>

@@ -4,34 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HasilHitungActivity">
+    tools:context=".Hasil.HasilNormalActivity">
 
     <FrameLayout
-        android:id="@+id/frameLayout4"
+        android:id="@+id/frameLayout6"
         android:layout_width="320dp"
         android:layout_height="110dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/bg_banner"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/textView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-
             android:fontFamily="@font/poppins_medium"
             android:text="HASIL DETEKSI STUNTING"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView29"
+            android:id="@+id/textView35"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="14dp"
@@ -43,25 +40,23 @@
     </FrameLayout>
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/imageView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="105dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
-        app:srcCompat="@drawable/beruang_logo_red" />
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout6"
+        app:srcCompat="@drawable/blue_bear_logo" />
 
     <FrameLayout
         android:id="@+id/frameLayout5"
         android:layout_width="236dp"
         android:layout_height="54dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
-        app:layout_constraintStart_toStartOf="@+id/imageView14"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15">
 
         <TextView
             android:id="@+id/textView31"
@@ -74,9 +69,9 @@
             android:id="@+id/textView32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="118dp"
-            android:text="Stunting."
-            android:textColor="#BA1818"
+            android:layout_marginLeft="119dp"
+            android:text="Normal"
+            android:textColor="@color/blue_studu"
             android:textSize="12sp" />
 
         <TextView
@@ -84,18 +79,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:text="Direkomendasikan untuk berkonsultasi  dengan dokter anak atau ahli gizi."
+            android:text="@string/normal"
             android:textSize="12sp" />
     </FrameLayout>
 
     <TextView
-        android:id="@+id/textView34"
+        android:id="@+id/textView36"
         android:layout_width="298dp"
         android:layout_height="54dp"
-        android:layout_marginTop="14dp"
-        android:text="@string/artikel_stunting"
+        android:layout_marginTop="30dp"
+        android:text="@string/ada_artikel"
         app:layout_constraintEnd_toEndOf="@+id/frameLayout5"
         app:layout_constraintStart_toStartOf="@+id/frameLayout5"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout5" />
-
 </android.support.constraint.ConstraintLayout>

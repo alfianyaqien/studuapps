@@ -8,11 +8,10 @@
 
     <FrameLayout
         android:id="@+id/frameLayout2"
-        android:layout_width="328dp"
-        android:layout_height="123dp"
+        android:layout_width="385dp"
+        android:layout_height="117dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="42dp"
         android:background="@drawable/bg_banner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -39,7 +38,7 @@
             android:id="@+id/imageView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="202dp"
+            android:layout_marginLeft="210dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
             app:srcCompat="@drawable/bayi" />
@@ -49,8 +48,8 @@
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="220dp"
-        android:layout_height="78dp"
+        android:layout_width="385dp"
+        android:layout_height="85dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_banner"
@@ -276,7 +275,7 @@
             android:id="@+id/imageView18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="89dp"
+            android:layout_marginLeft="87dp"
             app:srcCompat="@drawable/right_blue" />
 
     </FrameLayout>

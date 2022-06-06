@@ -3,9 +3,9 @@ package com.studu.studu
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class PerhitunganScreen : AppCompatActivity() {
+class RegistScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_perhitungan_screen)
+        setContentView(R.layout.activity_regist_screen)
     }
 }
