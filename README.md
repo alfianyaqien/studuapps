@@ -37,7 +37,7 @@ Thi is our features from StuDu App
 [Linkedin - Mila]: https://www.linkedin.com/in/akhdanmuhardi/
 [LinkedIn - Puspa]: https://www.linkedin.com/in/nevindraa/
 [Linkedin - Aji]: https://www.linkedin.com/in/sahir-syatha/
-[Linkedin - Rofiq]: https://www.linkedin.com/in/annkarenina/
+[Linkedin - Rofiq]: https://www.linkedin.com/in/raden-rofiq-yudha-setyawan-709bb3192/
 [Linkedin - Aldy]: https://www.linkedin.com/in/cloudsecledy/
 [Linkedin - Alfian]: https://www.linkedin.com/in/sekar-larasati/
 
@@ -45,5 +45,5 @@ Thi is our features from StuDu App
 [Github - Mila]: https://github.com/nevindra
 [Github - Puspa]: https://github.com/sahirrrr
 [Github - Aji]: https://github.com/itsannazzle
-[Github - Rofiq]: https://github.com/vrider46
+[Github - Rofiq]: https://github.com/rofiqyudha
 [Github - Alfian]: https://github.com/sekarlm
