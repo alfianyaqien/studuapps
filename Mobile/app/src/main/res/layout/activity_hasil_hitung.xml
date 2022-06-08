@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilHitung">
+
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="275dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/bg_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+
+            android:fontFamily="@font/poppins_medium"
+            android:text="HASIL DETEKSI STUNTING"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginRight="14dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="Berdasarkan hasil penghitungan anak anda berada dalam kategori:"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
+        app:srcCompat="@drawable/beruang_logo_red" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="236dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anak anda terindikasi "
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="118dp"
+            android:text="Stunting."
+            android:textColor="#BA1818"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Direkomendasikan untuk berkonsultasi  dengan dokter anak atau ahli gizi."
+            android:textSize="12sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:text="Adapun saran artikel yang bisa digunakan untuk penanganan awal dalam mencegah  dan penanganan stunting yang telah disediakan:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/frameLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout5" />
+
+</android.support.constraint.ConstraintLayout>

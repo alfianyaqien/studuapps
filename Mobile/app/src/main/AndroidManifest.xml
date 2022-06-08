@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.studu.studu" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StuDu" >
+        <activity
+            android:name=".HasilHitung"
+            android:exported="false" />
+        <activity
+            android:name=".PerhitunganScreen"
+            android:exported="false" />
+        <activity
+            android:name=".DetailArtikel"
+            android:exported="false" />
+        <activity
+            android:name=".PediksiScreen"
+            android:exported="false" />
+        <activity
+            android:name=".PrediksiScrenn"
+            android:exported="false"
+            android:label="@string/title_activity_prediksi_screnn"
+            android:theme="@style/Theme.StuDu.NoActionBar" />
+        <activity
+            android:name=".HitungScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ArtikelFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ArtikelScreen"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AboutScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".RegistScreen"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.StuDu.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
