@@ -16,3 +16,6 @@ Splitting information into each classes:
 Training (contain 4920 data)
 Validation (contain 2100 data)
 Testing (contain 258 data)
+
+Tensorflow Model can be accesed using link below here:
+https://drive.google.com/file/d/1XN5QN6ckkPAJHhHuzi3QNBGWKegqfowb/view?usp=sharing
